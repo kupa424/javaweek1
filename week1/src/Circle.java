@@ -20,7 +20,7 @@ public class Circle {
     }
 public static void main(String[] args){
         Circle c=new Circle(3);
-        System.out.println(c.getArea());
-        System.out.println(c.getPerimeter());
+        System.out.printf("the area is%.2f\n",c.getArea());
+        System.out.printf("the perimeter%.2f",c.getPerimeter());
 }
 }
